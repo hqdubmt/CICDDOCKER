@@ -39,5 +39,4 @@ jobs:
       - name: Deploy with Docker Compose
         run: docker compose up -d --force-recreate
 
-      - name: Restart PM2 application
-        run: pm2 restart CICDdocker
+     
