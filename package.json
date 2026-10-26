@@ -12,5 +12,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^5.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hqdubmt/CICDDOCKER.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hqdubmt/CICDDOCKER/issues"
+  },
+  "homepage": "https://github.com/hqdubmt/CICDDOCKER#readme"
 }
