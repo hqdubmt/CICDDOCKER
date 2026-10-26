@@ -37,6 +37,9 @@ jobs:
         run: docker pull hqdu/dockercicd:latest
 
       - name: Deploy with Docker Compose
+        working-directory: /home/hqdu/CICDdocker
+        env:
+         PORT: ${{ secrets.PORT }}
         run: docker compose up -d --force-recreate
 
      
