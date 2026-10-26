@@ -44,6 +44,10 @@ jobs:
       
       - name: runfile docker compose
         run: docker compose -f docker-compose.yml up -d --build
-        
+      
+      - name: run test
+        run: |
+          sleep 10
+          curl -s http://localhost:${{ secrets.PORT }} | grep "Hello World cicd    - p2-docker  )))))!"  
 
       
