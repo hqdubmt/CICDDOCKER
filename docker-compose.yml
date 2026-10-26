@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  app:
+    image: hqdu/dockercicd:latest
+    container_name: dockercicd
+    ports:
+      - "${PORT}:3000"
